@@ -8,15 +8,29 @@
 
 body {
 margin: 0;
-color: #ccc;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
+}
+.nav__link {
+    background-color: transparent;
+
 }
 
 .text {
     font-family: 'PT Serif', serif;
+    color: #ccc;
 }
 
 .text--sm {
     font-family: 1rem;
 }
+.text--link {
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
