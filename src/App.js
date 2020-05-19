@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './components/AboutMe/AboutMe'
 import NavBar from './components/NavBar/NavBar'
+import Projects from './components/Projects/Projects'
 import './main.scss';
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <main>
         <NavBar />
         <AboutMe />
+        <Projects />
       </main>
     </div>
   );
