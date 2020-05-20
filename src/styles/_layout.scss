@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.section {
+    min-height: 33vh;
+}
+
+.section__header {
+    text-align: center;
+}   
