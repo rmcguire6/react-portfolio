@@ -8,18 +8,12 @@
 *::before {
    box-sizing: inherit;
 }  
-
-html {
-    box-sizing: border-box;
-}
-body {
-    font-family: 'PT Serif', serif;
-    font-weight: 400;
-}
-
 $text-color: #ccc;
 
 .App {
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
     background-image: url("../images/SunsetAtZionPark.jpg");
     background-size: cover;
     background-repeat: no-repeat;

@@ -7,11 +7,9 @@ import '../src/styles/main.scss';
 function App() {
   return (
     <div className="App">
-      <main>
         <NavBar />
         <AboutMe />
         <Projects />
-      </main>
     </div>
   );
 }
