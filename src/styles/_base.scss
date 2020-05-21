@@ -1,19 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+   box-sizing: inherit;
 }  
-    
-body {
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
+html {
+    box-sizing: border-box;
 }
+body {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+}
+
+$text-color: #ccc;
 
 .App {
     background-image: url("../images/SunsetAtZionPark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,6 +30,6 @@ body {
 }
 
 .text {
-    font-family: 'PT Serif', serif;
-    color: #ccc;
+    color: $text-color;
 }
+
