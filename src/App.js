@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutMe from './components/AboutMe/AboutMe'
+import Intro from './components/Intro/Intro'
 import Contact from './components/Contact/Contact'
 import NavBar from './components/NavBar/NavBar'
 import Projects from './components/Projects/Projects'
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
         <NavBar />
-        <AboutMe />
+        <Intro />
         <Projects />
         <Contact />
     </div>

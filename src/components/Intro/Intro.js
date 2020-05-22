@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AboutMe = () => {
+const Intro = () => {
     return (
         <section className="section">
         <h1><span className="text text-sm">Hi, I'm Regina</span></h1>
@@ -8,4 +8,4 @@ const AboutMe = () => {
         </section>
     )
 }
-export {AboutMe as default}
+export {Intro as default}
