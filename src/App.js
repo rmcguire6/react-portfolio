@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutMe from './components/AboutMe/AboutMe'
 import Intro from './components/Intro/Intro'
 import Contact from './components/Contact/Contact'
 import NavBar from './components/NavBar/NavBar'
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
         <NavBar />
         <Intro />
+        <AboutMe />
         <Projects />
         <Contact />
     </div>
