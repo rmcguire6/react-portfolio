@@ -1,10 +1,25 @@
+.intro__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem 1rem 1rem 1rem;
+    min-height: 100vh;
+}  
 .nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
+.nav__link {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: $text-color;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
 .section {
     min-height: 33vh;
 }
