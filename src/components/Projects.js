@@ -1,6 +1,6 @@
 import React from "react";
-import Project from "../Project/Project";
-import projects from "../../data/projects";
+import Project from "./Project";
+import projects from "../data/projects";
 const Projects = () => {
   return (
     <section id="projects" className="section">

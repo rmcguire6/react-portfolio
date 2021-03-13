@@ -1,8 +1,8 @@
 import React from "react";
-import AboutMe from "./components/AboutMe/AboutMe";
-import Intro from "./components/Intro/Intro";
-import Contact from "./components/Contact/Contact";
-import Projects from "./components/Projects/Projects";
+import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
+import Intro from "./components/Intro";
+import Projects from "./components/Projects";
 import "../src/styles/main.scss";
 
 function App() {
