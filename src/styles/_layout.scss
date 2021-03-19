@@ -1,35 +1,65 @@
-$lt-purple: rgba(140, 125, 220, 0.4);
-$med-purple: rgba(37, 22, 121, 0.6);
-$text-color: #ccc;
-.box {
-  background-color: $med-purple;
+.section__title {
+  margin-bottom: 0.25em;
+}
+.section__title--intro {
+  font-weight: var(--fw-reg);
+}
+/* only done to keep name together */
+.section__title--intro bold {
   display: block;
 }
-.intro__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 3em 1em 1em 1em;
-  min-height: 100vh;
+.section__subtitle {
+  margin: 0;
+  font-size: var(--fs-h3);
 }
-.header__text {
-  color: $text-color;
-  line-height: 2rem;
+/* Intro section */
+.intro {
+  position: relative;
 }
-.nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 2em;
+.bold {
+  font-weight: var(--fw-bold);
+}
+.intro__img {
+  box-shadow: var(--bs);
+}
+.section__subtitle--intro {
+  display: inline-block;
+}
+@media (min-width: 600px) {
+  .intro {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-column-gap: 1em;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+  .intro__img {
+    grid-area: img;
+    min-width: 250px;
+    position: relative;
+    z-index: 2;
+  }
+  .section__subtitle--intro {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
+  }
+}
+.section__subtitle--intro,
+.section__subtitle--about {
+  background: var(--clr-accent);
+  padding: 0.25em, 1em;
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
 }
 
-.nav__link {
-  font-weight: bold;
-  font-size: 1.1rem;
-  text-decoration: none;
-  color: $text-color;
-  padding: 0.75em;
-}
 .projects__display {
   display: flex;
   flex-direction: column;
@@ -38,7 +68,7 @@ $text-color: #ccc;
 }
 .project__container {
   border: yellow 1px solid;
-  background-color: $lt-purple;
+  background-color: var(--clr-accent);
   width: 95%;
   padding: 1em;
   margin: 2em;

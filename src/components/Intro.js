@@ -1,24 +1,18 @@
 import React from "react";
-import NavBar from "./NavBar";
+import programmer from "../images/woman.jpeg";
 const Intro = () => {
   return (
-    <section className="section">
-      <div id="intro">
-        <div className="intro__container">
-          <header className="header">
-            <h1>
-              <span className="header__text">Hi, I'm Regina</span>
-            </h1>
-            <h3>
-              <span className="header__text">
-                Let's create beauty together.
-              </span>
-            </h3>
-          </header>
-          <NavBar />
-        </div>
-      </div>
-    </section>
+    <>
+      <section className="intro" id="home">
+        <h1 className="section__title section__title--intro light">
+          Hi, I am <span className="bold">Regina McGuire</span>
+        </h1>
+        <p className="section__subtitle section__subtitle--intro">
+          Full Stack React Developer
+        </p>
+        <img src={programmer} alt="a programmer" className="intro__img" />
+      </section>
+    </>
   );
 };
 export { Intro as default };
