@@ -62,6 +62,9 @@
 }
 
 /* Contact */
+.section__title--contact {
+  text-shadow: 2px 2px rgb(0, 0, 255);
+}
 .contact {
   background-color: var(--clr-accent);
   background-image: linear-gradient(
