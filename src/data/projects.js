@@ -1,15 +1,15 @@
 const projects = [
   {
-    title: "Meteorite Application",
-    image: "url('../images/meteorite.jpg')",
-    live: "mcguire-solo-heroku-app.com",
-    repo: "https://github.com/rmcguire6/chingu9-solo",
+    title: "Sound and Silence",
+    image: "../images/sound_and_silence.png",
+    live: "https://sound-and-silence.herokuapp.com/",
+    repo: "https://github.com/rmcguire6/sound_and_silence",
   },
   {
-    title: "Beer Application",
-    image: "url('../images/meteorite.jpg')",
-    live: "",
-    repo: "https://github.com/rmcguire6/Geckos-Team-10",
+    title: "Critical Space Strike",
+    image: "../images/Spaceships.png",
+    live: "https://my-spaceships.herokuapp.com/",
+    repo: "https://github.com/rmcguire6/solo--criticalspacestrike",
   },
 ];
 export { projects as default };
