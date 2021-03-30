@@ -1,10 +1,16 @@
 .btn {
-  padding: 10px;
   display: inline-block;
-  text-align: center;
-  border-radius: 100px;
-  font-weight: bold;
+  padding: 0.5em 1.5em;
+  background: var(--clr-accent);
+  color: #1a1a1a;
   text-decoration: none;
+  cursor: pointer;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  color: transparent;
+  letter-spacing: 2px;
+  font-weight: var(--fw-bold);
+  transition: transform 200ms ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.1);
 }
