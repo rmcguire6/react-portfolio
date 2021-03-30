@@ -22,8 +22,11 @@
 .intro__img {
   box-shadow: var(--bs);
 }
-.section__subtitle--intro {
+.section__subtitle--intro,
+.section__subtitle--about {
   display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 @media (min-width: 600px) {
   .intro {
@@ -56,7 +59,7 @@
 .section__subtitle--intro,
 .section__subtitle--about {
   background: var(--clr-accent);
-  padding: 0.25em, 1em;
+  color: var(--clr-light);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
 }
