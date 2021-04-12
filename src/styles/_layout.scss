@@ -189,6 +189,27 @@
   padding: 1em;
   font-size: var(--fs-h3);
 }
-.icon-list__link:hover {
+.icon-list__link:hover,
+.nav_link:hover {
   background-color: var(--clr-accent);
+}
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  background-color: var(--clr-accent);
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 0, 0.2),
+    rgba(43, 76, 102, 0.2),
+    rgba(0, 51, 102, 0.2)
+  );
+  color: var(--clr-light);
+}
+.nav__link {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em;
+  margin: 0 2em;
 }
