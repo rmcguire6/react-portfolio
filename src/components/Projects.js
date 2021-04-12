@@ -10,7 +10,7 @@ library.add(fab, faGithub);
 
 const Projects = () => {
   return (
-    <section className="my-projects" id="projects">
+    <section className="my-projects" id="myprojects">
       <h2 className="section__title">PROJECTS</h2>
       <p className="section__subtitle section__subtitle--projects">
         A selection of my work

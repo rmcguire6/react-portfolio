@@ -3,7 +3,7 @@ import programmer from "../images/woman.jpeg";
 
 const AboutMe = () => {
   return (
-    <section className="about-me">
+    <section className="about-me" id="aboutme">
       <h1 className="section__title section__title--about">
         Hi, I am <span className="accent">Regina McGuire</span>
       </h1>

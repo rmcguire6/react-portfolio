@@ -6,7 +6,7 @@ library.add(fab, faGithub, faLinkedin);
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact" id="contactme">
       <h2 className="section__title section__title--contact">CONTACT ME</h2>
       <a href="mailto: reginamcguire16@gmail.com" className="contact__link">
         reginamcguire16@gmail.com
