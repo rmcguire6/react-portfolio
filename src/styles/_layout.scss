@@ -8,8 +8,10 @@
 }
 
 /* Contact */
-.section__title--contact {
-  text-shadow: 2px 2px rgb(0, 0, 255);
+.section__title--contact,
+.section__title--experience,
+.section__title--projects {
+  text-shadow: var(--ts);
 }
 .contact {
   background-color: var(--clr-accent);
