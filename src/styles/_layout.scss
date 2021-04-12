@@ -206,9 +206,10 @@
     rgba(43, 76, 102, 0.2),
     rgba(0, 51, 102, 0.2)
   );
-  color: var(--clr-light);
 }
 .nav__link {
+  color: var(--clr-light);
+  text-shadow: var(--ts);
   text-decoration: none;
   font-size: 1em;
   font-weight: bold;
