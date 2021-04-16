@@ -26,7 +26,7 @@ const Contact = () => {
           </a>
         </li>
       </ul>
-      <a href="#top" className="btn">
+      <a href="#top" className="btn btn-top">
         Back to Top
       </a>
     </section>
