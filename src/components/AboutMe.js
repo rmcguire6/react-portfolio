@@ -12,21 +12,20 @@ const AboutMe = () => {
       </p>
       <div className="about-me__body">
         <p className="about-me__text">
-          My mission as a developer is to improve people's lives. I'm especially
-          interested in underserved communities. I want to share the benefits I
-          have received through coding.
+          My mission as a developer is to improve people's lives through
+          beautiful code. I also want to share the benefits I have received from
+          learning software development with others.
         </p>
         <p className="about-me__text">
           In university I majored in Computer Mathematics and spent years in
-          mathematics education. Now I enjoy web development because it allows
-          me to create beauty logically, solve problems persistantly, and learn
-          new technologies constantly.
+          education. Now I enjoy web development because it allows me to create
+          beauty logically, solve problems persistantly, and learn constantly.
         </p>
         <p className="about-me__text">
           I'm currently contributing as both an open-source developer and a
-          facilitator at Chingu. My current technologies are Javascript, HTML5,
-          CSS3, React, Python, Flask, Django, Node, Express, and Postgres. My
-          current learning technologies are Next.js and Typescript.
+          facilitator at Chingu. As a facilitator I help design and develop new
+          apps, review solo projects, and answer questions in our Discord
+          community.
         </p>
       </div>
       <img
