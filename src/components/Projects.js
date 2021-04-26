@@ -25,11 +25,9 @@ const Projects = () => {
           <div className="project__desc">
             <h3>{projects[0].title}</h3>
             <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              at molestie diam. Mauris aliquam non urna dapibus dignissim.
-              Maecenas sit amet quam nec sem ornare commodo vitae sit amet nunc.
-              Fusce maximus.
+              This co-written project explores disability issues related to
+              websites. It uses a Flask backend to communicate with the Jira
+              templated front end.
             </p>
             <ul className="icon-list">
               <li className="icon-list__item">
@@ -50,11 +48,9 @@ const Projects = () => {
           <div className="project__desc">
             <h3>{projects[1].title}</h3>
             <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              at molestie diam. Mauris aliquam non urna dapibus dignissim.
-              Maecenas sit amet quam nec sem ornare commodo vitae sit amet nunc.
-              Fusce maximus.
+              This solo game was written as a facilitator as a sample project
+              for solo projects so development time was capped. It uses a Flask
+              back end and an SQLite database to power the gameplay.
             </p>
             <ul className="icon-list">
               <li className="icon-list__item">
@@ -79,11 +75,9 @@ const Projects = () => {
           <div className="project__desc">
             <h3>{projects[2].title}</h3>
             <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              at molestie diam. Mauris aliquam non urna dapibus dignissim.
-              Maecenas sit amet quam nec sem ornare commodo vitae sit amet nunc.
-              Fusce maximus.
+              This React project was submitted for Chingu acceptance. It
+              displays the contents of the NASA meteorite database in a
+              responsive window.
             </p>
             <ul className="icon-list">
               <li className="icon-list__item">
