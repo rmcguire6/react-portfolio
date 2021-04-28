@@ -10,46 +10,24 @@ const Experience = () => {
         <div className="experience">
           <h3>Software Engineer</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at
-            molestie diam. Mauris aliquam non urna dapibus dignissim. Maecenas
-            sit amet quam nec sem ornare commodo vitae sit amet nunc. Fusce
-            maximus in sem quis suscipit. Duis lacinia vehicula consequat. Nulla
-            congue, quam non ultrices iaculis, mauris elit placerat mauris, sit
-            amet semper quam elit sit amet lacus. Sed eu blandit urna. Sed
-            laoreet posuere dolor non lacinia. Integer nec finibus lectus, quis
-            dignissim mauris. Sed justo purus, elementum et purus nec, commodo
-            commodo nulla. Vivamus lacus velit, hendrerit nec tellus nec,
-            maximus iaculis orci.
+            Programmed React, JS, and Node code to implement full stack web
+            applications Developed application logic Pair programmed remotely
+            Used Agile methodology
           </p>
         </div>
         <div className="experience">
           <h3>Facilitator</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at
-            molestie diam. Mauris aliquam non urna dapibus dignissim. Maecenas
-            sit amet quam nec sem ornare commodo vitae sit amet nunc. Fusce
-            maximus in sem quis suscipit. Duis lacinia vehicula consequat. Nulla
-            congue, quam non ultrices iaculis, mauris elit placerat mauris, sit
-            amet semper quam elit sit amet lacus. Sed eu blandit urna. Sed
-            laoreet posuere dolor non lacinia. Integer nec finibus lectus, quis
-            dignissim mauris. Sed justo purus, elementum et purus nec, commodo
-            commodo nulla. Vivamus lacus velit, hendrerit nec tellus nec,
-            maximus iaculis orci.
+            Develop new sample applications Code review solo projects Answer
+            questions in our Discord community.
           </p>
         </div>
         <div className="experience">
           <h3>Tutor</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at
-            molestie diam. Mauris aliquam non urna dapibus dignissim. Maecenas
-            sit amet quam nec sem ornare commodo vitae sit amet nunc. Fusce
-            maximus in sem quis suscipit. Duis lacinia vehicula consequat. Nulla
-            congue, quam non ultrices iaculis, mauris elit placerat mauris, sit
-            amet semper quam elit sit amet lacus. Sed eu blandit urna. Sed
-            laoreet posuere dolor non lacinia. Integer nec finibus lectus, quis
-            dignissim mauris. Sed justo purus, elementum et purus nec, commodo
-            commodo nulla. Vivamus lacus velit, hendrerit nec tellus nec,
-            maximus iaculis orci.
+            Instructed students on linear algebra, calculus, and other
+            mathematical topics resulting in at least one letter grade
+            improvement for over 90% of them.
           </p>
         </div>
       </div>
