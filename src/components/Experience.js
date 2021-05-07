@@ -10,22 +10,26 @@ const Experience = () => {
         <div className="experience">
           <h3>Software Engineer</h3>
           <p>
-            Programmed React, JS, and Node code to implement full stack web
-            applications Developed application logic Pair programmed remotely
-            Used Agile methodology
+            I build solo and team projects using various languages including
+            Javascript and Python. I use various frameworks including React,
+            Flask, and Django. I use databases and ORM's including PostgreSQL,
+            MongoDB, Mongoose, and SQLAlchemy. I create back end applications
+            using Node. I use Agile methodology and various tools including
+            Jira, Trello, and Slack.
           </p>
         </div>
         <div className="experience">
           <h3>Facilitator</h3>
           <p>
-            Develop new sample applications Code review solo projects Answer
+            I develop new applications for members' use. I help code review
+            members' solo projects. I help onboard new members. I also answer
             questions in our Discord community.
           </p>
         </div>
         <div className="experience">
           <h3>Tutor</h3>
           <p>
-            Instructed students on linear algebra, calculus, and other
+            I instructed students on linear algebra, calculus, and other
             mathematical topics resulting in at least one letter grade
             improvement for over 90% of them.
           </p>

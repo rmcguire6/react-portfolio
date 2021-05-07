@@ -23,9 +23,10 @@ const AboutMe = () => {
         </p>
         <p className="about-me__text">
           I'm currently contributing as both an open-source developer and a
-          facilitator at Chingu. As a developer I'm writing in Javascript, HTML,
-          CSS, Python and Flask. As a facilitator I help develop new apps, code
-          review solo projects, and answer questions in our Discord community.
+          facilitator at Chingu. As a developer I'm currently writing in
+          Javascript, HTML, CSS, and Python. I'm using React and Flask
+          frameworks. As a facilitator I help develop new apps, code review solo
+          projects, and onboard new members.
         </p>
       </div>
       <img
