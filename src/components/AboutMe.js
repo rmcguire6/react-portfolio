@@ -1,5 +1,4 @@
 import React from "react";
-import programmer from "../images/woman.jpeg";
 
 const AboutMe = () => {
   return (
@@ -29,11 +28,6 @@ const AboutMe = () => {
           projects, and onboard new members.
         </p>
       </div>
-      <img
-        src={programmer}
-        alt="programmer at keyboard"
-        className="about-me__img"
-      />
     </section>
   );
 };
