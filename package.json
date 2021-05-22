@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rmcguire.dev",
   "engines": {
     "node": "12.x"
   },
