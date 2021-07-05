@@ -116,7 +116,7 @@
 
 /* My Experience */
 .my-experience {
-  background-color: var(--clr-darker-accent);
+  background-color: var(--clr-accent);
   background-image: url(../images/laptop.jpg);
   background-size: cover;
   background-blend-mode: multiply;
@@ -150,8 +150,9 @@
 }
 /* Portfolio */
 .my-projects {
-  background-color: var(--clr-darker-accent);
-  color: var(--clr-light);
+  padding-top: 0;
+  background-color: var(--clr-light);
+  color: var(--clr-accent);
   text-align: center;
 }
 .section__subtitle--projects {
@@ -173,7 +174,8 @@
   width: 100%;
 }
 .project__desc {
-  background-color: rgba(0, 51, 102, 0.7);
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
   margin: 1em;
 }
 .icon-list {
