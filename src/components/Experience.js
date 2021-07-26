@@ -15,7 +15,7 @@ const Experience = () => {
             Flask, and Django. I use databases and ORM's including PostgreSQL,
             MongoDB, Mongoose, and SQLAlchemy. I create back end applications
             using Node. I use Agile methodology and various tools including
-            Jira, Trello, and Slack.
+            Trello, Zenhub, and Slack.
           </p>
         </div>
         <div className="experience">
