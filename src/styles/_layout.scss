@@ -174,8 +174,9 @@
   width: 100%;
 }
 .project__desc {
-  background-color: var(--clr-light);
-  color: var(--clr-dark);
+  background-color: var(--clr-accent);
+  color: var(--clr-light);
+  padding: 0.5em;
   margin: 1em;
 }
 .icon-list {
