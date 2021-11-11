@@ -86,6 +86,7 @@
   font-weight: var(--fw-bold);
 }
 .about-me__img {
+  border-radius: 50%;
   box-shadow: var(--bs);
 }
 @media (min-width: 600px) {
@@ -111,7 +112,6 @@
     padding-right: calc(200px + 4em);
   }
   .about-me__img {
-    border-radius: 50%;
     grid-area: img;
     position: relative;
     z-index: 2;
@@ -146,6 +146,7 @@
 .experience {
   max-width: 500px;
   margin: 0 auto;
+  padding: 1em;
 }
 @media (min-width: 800px) {
   .experience {
@@ -172,6 +173,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .project {
+  border-radius: 7px;
   box-shadow: var(--bs);
   margin: 0 1em;
 }
@@ -198,6 +200,7 @@
   margin: 0 0.5em;
 }
 .icon-list__link {
+  border-radius: 7px;
   color: var(--clr-accent);
   padding: 1em;
   font-size: var(--fs-h3);
