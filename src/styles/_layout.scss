@@ -182,8 +182,8 @@
   max-height: 300px;
 }
 .project__desc {
-  background-color: var(--clr-accent);
-  color: var(--clr-light);
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
   padding: 0.5em;
   margin: 1em;
 }
@@ -202,9 +202,8 @@
   padding: 1em;
   font-size: var(--fs-h3);
 }
-.icon-list__link:hover,
-.nav_link:hover {
-  background-color: var(--clr-accent);
+.icon-list__link:hover {
+  box-shadow: var(--bs);
 }
 .nav {
   display: flex;
