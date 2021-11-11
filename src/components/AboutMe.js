@@ -1,4 +1,5 @@
 import React from "react";
+import regina from "../images/regina.jpg";
 
 const AboutMe = () => {
   return (
@@ -7,7 +8,7 @@ const AboutMe = () => {
         Hi, I am <span className="accent">Regina McGuire</span>
       </h1>
       <p className="section__subtitle section__subtitle--about">
-        Full Stack React Developer
+        Full Stack Python Developer
       </p>
       <div className="about-me__body">
         <p className="about-me__text">
@@ -22,12 +23,13 @@ const AboutMe = () => {
         </p>
         <p className="about-me__text">
           I'm currently contributing as both an open-source developer and a
-          facilitator at Chingu. As a developer I'm currently writing in
-          Javascript, HTML, CSS, and Python. I'm using React and Flask
-          frameworks. As a facilitator I help develop new apps, code review solo
-          projects, and onboard new members.
+          facilitator at Chingu. As a developer I'm currently writing in Python
+          and Javascript. I'm using React and Flask frameworks. As a facilitator
+          I help develop new apps, code review solo projects, and onboard new
+          members.
         </p>
       </div>
+      <img src={regina} alt="Regina's face" className="about-me__img" />
     </section>
   );
 };

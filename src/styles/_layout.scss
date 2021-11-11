@@ -69,7 +69,13 @@
   color: var(--clr-darker-accent);
 }
 .section__subtitle--about {
-  background: var(--clr-accent);
+  background-color: var(--clr-accent);
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 0, 0.2),
+    rgba(43, 76, 102, 0.2),
+    rgba(0, 51, 102, 0.2)
+  );
   color: var(--clr-light);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
@@ -105,6 +111,7 @@
     padding-right: calc(200px + 4em);
   }
   .about-me__img {
+    border-radius: 50%;
     grid-area: img;
     position: relative;
     z-index: 2;
@@ -172,6 +179,7 @@
 .project__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
   width: 100%;
+  max-height: 300px;
 }
 .project__desc {
   background-color: var(--clr-accent);
@@ -190,7 +198,7 @@
   margin: 0 0.5em;
 }
 .icon-list__link {
-  color: var(--clr-light);
+  color: var(--clr-accent);
   padding: 1em;
   font-size: var(--fs-h3);
 }
