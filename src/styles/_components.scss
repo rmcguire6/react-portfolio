@@ -9,6 +9,7 @@
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  box-shadow: var(--bs);
 }
 .btn:hover {
   transform: scale(1.1);

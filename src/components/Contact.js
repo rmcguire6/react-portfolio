@@ -29,6 +29,7 @@ const Contact = () => {
       <a href="#top" className="btn btn-top">
         Back to Top
       </a>
+      <p className="copyright">&copy;2021 by Regina Mc Guire</p>
     </section>
   );
 };
