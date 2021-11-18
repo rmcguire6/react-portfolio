@@ -10,6 +10,7 @@ const AboutMe = () => {
       <p className="section__subtitle section__subtitle--about">
         Full Stack Python Developer
       </p>
+      <img src={regina} alt="Regina's face" className="about-me__img" />
       <div className="about-me__body">
         <p className="about-me__text">
           My mission as a developer is to improve people's lives through
@@ -29,7 +30,6 @@ const AboutMe = () => {
           members.
         </p>
       </div>
-      <img src={regina} alt="Regina's face" className="about-me__img" />
     </section>
   );
 };
