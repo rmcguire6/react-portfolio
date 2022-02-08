@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="nav" id="top">
+    <nav className="nav">
       <a href="#aboutme" className="nav__link">
         About Me
       </a>

@@ -26,10 +26,10 @@ const Contact = () => {
           </a>
         </li>
       </ul>
-      <a href="#top" className="btn btn-top">
+      <a href="#aboutme" className="btn btn-top">
         Back to Top
       </a>
-      <p className="copyright">&copy;2021 by Regina Mc Guire</p>
+      <p className="copyright">&copy;2021-2022 by Regina Mc Guire</p>
     </section>
   );
 };
